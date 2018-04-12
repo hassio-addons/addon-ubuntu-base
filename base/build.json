@@ -4,7 +4,7 @@
     "build_from": {
         "aarch64": "arm64v8/ubuntu:xenial",
         "amd64": "ubuntu:xenial",
-        "armhf": "arm32v7/ubuntu:xebial",
+        "armhf": "arm32v7/ubuntu:xenial",
         "i386": "i386/ubuntu:xenial"
     },
     "args": {}
