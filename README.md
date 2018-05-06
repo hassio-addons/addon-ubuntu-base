@@ -2,12 +2,12 @@
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
-![Project Maintenance][maintenance-shield]
-[![GitHub Activity][commits-shield]][commits]
 [![License][license-shield]](LICENSE.md)
 
-[![CircleCI][circleci-shield]][circleci]
-[![Code Climate][codeclimate-shield]][codeclimate]
+[![GitLab CI][gitlabci-shield]][gitlabci]
+![Project Maintenance][maintenance-shield]
+[![GitHub Activity][commits-shield]][commits]
+
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
 
@@ -125,18 +125,24 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[aarch64-anchore-shield]: https://anchore.io/service/badges/image/e0ed0cc51f6faa358b98f4adc1011d29584e9d2e4f1ed2765735cae1c1adf850
+[aarch64-anchore]: https://anchore.io/image/dockerhub/hassioaddons%2Fubuntu-base-aarch64%3Alatest
 [aarch64-arch-shield]: https://img.shields.io/badge/architecture-aarch64-blue.svg
 [aarch64-dockerhub]: https://hub.docker.com/r/hassioaddons/ubuntu-base-aarch64
 [aarch64-layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/ubuntu-base-aarch64.svg
 [aarch64-microbadger]: https://microbadger.com/images/hassioaddons/ubuntu-base-aarch64
 [aarch64-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/ubuntu-base-aarch64.svg
 [aarch64-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/ubuntu-base-aarch64.svg
+[amd64-anchore-shield]: https://anchore.io/service/badges/image/63a8aaf6cfbdf81d423886cad39ce76aeba4936dfa2bfa38b49fe4a9f21b5a64
+[amd64-anchore]: https://anchore.io/image/dockerhub/hassioaddons%2Fubuntu-base-amd64%3Alatest
 [amd64-arch-shield]: https://img.shields.io/badge/architecture-amd64-blue.svg
 [amd64-dockerhub]: https://hub.docker.com/r/hassioaddons/ubuntu-base-amd64
 [amd64-layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/ubuntu-base-amd64.svg
 [amd64-microbadger]: https://microbadger.com/images/hassioaddons/ubuntu-base-amd64
 [amd64-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/ubuntu-base-amd64.svg
 [amd64-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/ubuntu-base-amd64.svg
+[armhf-anchore-shield]: https://anchore.io/service/badges/image/33bef0370fe095d5e6cfa7687cd0c28c5afae052b4177c4864d9792bc94905a1
+[armhf-anchore]: https://anchore.io/image/dockerhub/hassioaddons%2Fubuntu-base-armhf%3Alatest
 [armhf-arch-shield]: https://img.shields.io/badge/architecture-armhf-blue.svg
 [armhf-dockerhub]: https://hub.docker.com/r/hassioaddons/ubuntu-base-armhf
 [armhf-layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/ubuntu-base-armhf.svg
@@ -155,6 +161,10 @@ SOFTWARE.
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/?u=frenck
 [frenck]: https://github.com/frenck
+[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-ubuntu-base/badges/master/pipeline.svg
+[gitlabci]: https://gitlab.com/hassio-addons/addon-ubuntu-base/pipelines
+[i386-anchore-shield]: https://anchore.io/service/badges/image/b264466afeaa4fdb54cc4e82ba8e4f916a7893a63f474275474441a3fbb8d65b
+[i386-anchore]: https://anchore.io/image/dockerhub/hassioaddons%2Fubuntu-base-i386%3Alatest
 [i386-arch-shield]: https://img.shields.io/badge/architecture-i386-blue.svg
 [i386-dockerhub]: https://hub.docker.com/r/hassioaddons/ubuntu-base-i386
 [i386-layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/ubuntu-base-i386.svg
