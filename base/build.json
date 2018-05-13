@@ -1,6 +1,6 @@
 {
     "image": "hassioaddons/ubuntu-base-{arch}",
-    "squash": true,
+    "squash": false,
     "build_from": {
         "aarch64": "arm64v8/ubuntu:xenial",
         "amd64": "ubuntu:xenial",
