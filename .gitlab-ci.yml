@@ -274,7 +274,7 @@ deploy:armhf:
 deploy:aarch64:
   <<: *deploy
   variables:
-    ADDON_ARCH: armhf
+    ADDON_ARCH: aarch64
   only:
     - master
     - /^v\d+\.\d+\.\d+(?:-(?:beta|rc)(?:(?:(?:\+|\.)?[a-zA-Z0-9]+)*)?)?$/
@@ -284,7 +284,7 @@ deploy:aarch64:
 deploy:i386:
   <<: *deploy
   variables:
-    ADDON_ARCH: armhf
+    ADDON_ARCH: i386
   only:
     - master
     - /^v\d+\.\d+\.\d+(?:-(?:beta|rc)(?:(?:(?:\+|\.)?[a-zA-Z0-9]+)*)?)?$/
@@ -294,7 +294,7 @@ deploy:i386:
 deploy:amd64:
   <<: *deploy
   variables:
-    ADDON_ARCH: armhf
+    ADDON_ARCH: amd64
   only:
     - master
     - /^v\d+\.\d+\.\d+(?:-(?:beta|rc)(?:(?:(?:\+|\.)?[a-zA-Z0-9]+)*)?)?$/
