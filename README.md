@@ -8,8 +8,11 @@
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
+[![Bountysource][bountysource-shield]][bountysource]
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
+
+[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
 Docker Ubuntu base images used by Community Hass.io Add-ons.
 
@@ -153,6 +156,10 @@ SOFTWARE.
 [armhf-microbadger]: https://microbadger.com/images/hassioaddons/ubuntu-base-armhf
 [armhf-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/ubuntu-base-armhf.svg
 [armhf-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/ubuntu-base-armhf.svg
+[bountysource-shield]: https://img.shields.io/bountysource/team/hassio-addons/activity.svg
+[bountysource]: https://www.bountysource.com/teams/hassio-addons/issues
+[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
+[buymeacoffee]: https://www.buymeacoffee.com/frenck
 [circleci-shield]: https://img.shields.io/circleci/project/github/hassio-addons/addon-ubuntu-base.svg
 [circleci]: https://circleci.com/gh/hassio-addons/addon-ubuntu-base
 [codeclimate-shield]: https://img.shields.io/badge/code%20climate-protected-brightgreen.svg
