@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ubuntu:xenial
+ARG BUILD_FROM=ubuntu:bionic
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -21,11 +21,10 @@ RUN \
     apt-get update \
     \
     && apt-get install -y --no-install-recommends \
-        bash=4.3-14ubuntu1.2 \
-        ca-certificates=20170717~16.04.1 \
-        curl=7.47.0-1ubuntu2.7 \
-        jq=1.5+dfsg-1 \
-        tzdata=2017c-0ubuntu0.16.04 \
+        ca-certificates=20180409 \
+        curl=7.58.0-2ubuntu3.1 \
+        jq=1.5+dfsg-2 \
+        tzdata=2018d-1 \
     \
     && if [ "${BUILD_ARCH}" = "i386" ]; then S6_ARCH="x86"; else S6_ARCH="${BUILD_ARCH}"; fi \
     \
