@@ -62,7 +62,7 @@ LABEL \
     io.hass.name="Addon Ubuntu base for ${BUILD_ARCH}" \
     io.hass.description="Community Hass.io Add-ons: ${BUILD_ARCH} Ubuntu base image" \
     io.hass.arch="${BUILD_ARCH}" \
-    io.hass.type="addon" \
+    io.hass.type="base" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="Franck Nijhof <frenck@addons.community>" \
     org.label-schema.description="Community Hass.io Add-ons: ${BUILD_ARCH} Ubuntu base image" \
