@@ -15,6 +15,9 @@ ENV \
 # Copy root filesystem
 COPY rootfs /
 
+# Set shell
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
 # Install base system
 ARG BUILD_ARCH=amd64
 RUN \
@@ -33,16 +36,6 @@ RUN \
     \
     && mkdir -p /etc/fix-attrs.d \
     && mkdir -p /etc/services.d \
-    \
-    && \
-        if [ "${BUILD_ARCH}" != "armhf" ]; then \
-            rm -f /usr/bin/qemu-arm-static; \
-        fi \
-    \
-    && \
-        if [ "${BUILD_ARCH}" != "aarch64" ]; then \
-            rm -f /usr/bin/qemu-aarch64-static; \
-        fi \
     \
     && rm -f -r /tmp/* \
     && rm -rf /var/lib/apt/lists/* \
