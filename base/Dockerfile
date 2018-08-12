@@ -40,7 +40,8 @@ RUN \
     && rm -f -r /tmp/* \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /var/lib/{apt,dpkg,cache,log}/* \
-    && rm -rf /var/{cache,log}/*
+    && rm -rf /var/{cache,log}/* \
+    && touch /var/lib/dpkg/status
 
 # Entrypoint & CMD
 ENTRYPOINT [ "/init" ]
