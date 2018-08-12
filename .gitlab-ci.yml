@@ -297,7 +297,7 @@ build:armhf:
   <<: *build
   variables:
     ADDON_ARCH: armhf
-    FROM: arm32v6/alpine:3.8
+    FROM: arm32v7/ubuntu:bionic
   tags:
     - build
     - armhf
@@ -306,7 +306,7 @@ build:aarch64:
   <<: *build
   variables:
     ADDON_ARCH: aarch64
-    FROM: arm64v8/alpine:3.8
+    FROM: arm64v8/ubuntu:bionic
   tags:
     - build
     - aarch64
@@ -315,7 +315,7 @@ build:i386:
   <<: *build
   variables:
     ADDON_ARCH: i386
-    FROM: i386/alpine:3.8
+    FROM: i386/ubuntu:bionic
   tags:
     - build
     - i386
@@ -324,7 +324,7 @@ build:amd64:
   <<: *build
   variables:
     ADDON_ARCH: amd64
-    FROM: amd64/alpine:3.8
+    FROM: ubuntu:bionic
   tags:
     - build
     - amd64
