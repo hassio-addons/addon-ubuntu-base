@@ -17,6 +17,8 @@ readonly HASS_API_ENDPOINT='http://hassio'
 source "${__LIB_DIR}/modules/api/addons.sh"
 # shellcheck source=base/rootfs/usr/lib/hassio-addons/modules/api/hardware.sh
 source "${__LIB_DIR}/modules/api/hardware.sh"
+# shellcheck source=base/rootfs/usr/lib/hassio-addons/modules/api/hassos.sh
+source "${__LIB_DIR}/modules/api/hassos.sh"
 # shellcheck source=base/rootfs/usr/lib/hassio-addons/modules/api/homeassistant.sh
 source "${__LIB_DIR}/modules/api/homeassistant.sh"
 # shellcheck source=base/rootfs/usr/lib/hassio-addons/modules/api/host.sh
@@ -72,8 +74,8 @@ hass.api.call() {
 
     hass.log.debug "Requested API resource: ${HASS_API_ENDPOINT}${resource}"
     hass.log.debug "API HTTP Response code: ${status}"
-    hass.log.debug "API Response: ${response}" 
-    
+    hass.log.debug "API Response: ${response}"
+
     if [[ "${status}" -eq 401 ]]; then
         hass.log.error "Unable to authenticate with the API, permission denied"
         return "${EX_NOK}"
