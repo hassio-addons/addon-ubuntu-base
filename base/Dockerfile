@@ -42,8 +42,8 @@ RUN \
     \
     && rm -fr \
         /tmp/* \
-        /var/lib/apt/* \
-        /var/{cache,log}/*
+        /var/{cache,log}/* \
+        /var/lib/apt/lists/*
 
 # Entrypoint & CMD
 ENTRYPOINT [ "/init" ]
