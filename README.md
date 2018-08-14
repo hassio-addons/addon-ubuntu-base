@@ -79,10 +79,11 @@ Got questions?
 
 You have several options to get them answered:
 
-- The Community Hass.io Add-ons [Discord Chat server][discord] for add-on
+- The [Community Hass.io Add-ons Discord chat server][discord] for add-on
   support and feature requests.
-- The Home Assistant [Discord Chat Server][discord-ha] for general Home
+- The [Home Assistant Discord Chat Server][discord-ha] for general Home
   Assistant discussions and questions.
+- The Home Assistant [Community Forum][forum].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
 You could also [open an issue here][issue] GitHub.
@@ -163,10 +164,6 @@ SOFTWARE.
 [bountysource]: https://www.bountysource.com/teams/hassio-addons/issues
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
-[circleci-shield]: https://img.shields.io/circleci/project/github/hassio-addons/addon-ubuntu-base.svg
-[circleci]: https://circleci.com/gh/hassio-addons/addon-ubuntu-base
-[codeclimate-shield]: https://img.shields.io/badge/code%20climate-protected-brightgreen.svg
-[codeclimate]: https://codeclimate.com/github/hassio-addons/addon-ubuntu-base
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-ubuntu-base.svg
 [commits]: https://github.com/hassio-addons/addon-ubuntu-base/commits/master
 [contributors]: https://github.com/hassio-addons/addon-ubuntu-base/graphs/contributors
