@@ -28,7 +28,7 @@ RUN \
     \
     && apt-get install -y --no-install-recommends \
         ca-certificates=20180409 \
-        curl=7.58.0-2ubuntu3.2 \
+        curl=7.58.0-2ubuntu3.3 \
         jq=1.5+dfsg-2 \
         tzdata=2018d-1 \
     \
