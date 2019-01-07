@@ -30,7 +30,7 @@ RUN \
         ca-certificates=20180409 \
         curl=7.58.0-2ubuntu3.5 \
         jq=1.5+dfsg-2 \
-        tzdata=2018d-1 \
+        tzdata=2018i-0ubuntu0.18.04 \
     \
     && if [ "${BUILD_ARCH}" = "i386" ]; then S6_ARCH="x86"; else S6_ARCH="${BUILD_ARCH}"; fi \
     \
