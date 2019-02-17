@@ -9,6 +9,7 @@ variables:
   ADDON_ARMV7: "false"
   ADDON_LEGACY_TAGS: "true"
   ADDON_PUBLISH: "false"
+  ADDON_QEMU: "true"
 
   ADDON_AARCH64_BASE: "arm64v8/ubuntu:bionic"
   ADDON_AMD64_BASE: "amd64/ubuntu:bionic"
