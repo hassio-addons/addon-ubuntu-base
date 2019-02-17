@@ -40,6 +40,11 @@ repository contain some extras:
 [![Docker Layers][armhf-layers-shield]][armhf-microbadger]
 [![Docker Pulls][armhf-pulls-shield]][armhf-dockerhub]
 
+[![Docker Architecture][armv7-arch-shield]][armv7-dockerhub]
+[![Docker Version][armv7-version-shield]][armv7-microbadger]
+[![Docker Layers][armv7-layers-shield]][armv7-microbadger]
+[![Docker Pulls][armv7-pulls-shield]][armv7-dockerhub]
+
 [![Docker Architecture][aarch64-arch-shield]][aarch64-dockerhub]
 [![Docker Version][aarch64-version-shield]][aarch64-microbadger]
 [![Docker Layers][aarch64-layers-shield]][aarch64-microbadger]
@@ -149,6 +154,12 @@ SOFTWARE.
 [armhf-microbadger]: https://microbadger.com/images/hassioaddons/ubuntu-base-armhf
 [armhf-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/ubuntu-base-armhf.svg
 [armhf-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/ubuntu-base-armhf.svg
+[armv7-arch-shield]: https://img.shields.io/badge/architecture-armv7-blue.svg
+[armv7-dockerhub]: https://hub.docker.com/r/hassioaddons/ubuntu-base-armv7
+[armv7-layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/ubuntu-base-armv7.svg
+[armv7-microbadger]: https://microbadger.com/images/hassioaddons/ubuntu-base-armv7
+[armv7-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/ubuntu-base-armv7.svg
+[armv7-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/ubuntu-base-armv7.svg
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-ubuntu-base.svg
