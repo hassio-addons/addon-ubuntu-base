@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ubuntu:bionic
+ARG BUILD_FROM=ubuntu:bionic-20190307
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
