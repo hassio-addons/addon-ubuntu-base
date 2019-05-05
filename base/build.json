@@ -2,10 +2,10 @@
     "image": "hassioaddons/ubuntu-base-{arch}",
     "squash": false,
     "build_from": {
-        "aarch64": "arm64v8/ubuntu:bionic-20190307",
-        "amd64": "ubuntu:bionic-20190307",
-        "armv7": "arm32v7/ubuntu:bionic-20190307",
-        "i386": "i386/ubuntu:bionic-20190307"
+        "aarch64": "arm64v8/ubuntu:bionic-20190424",
+        "amd64": "ubuntu:bionic-20190424",
+        "armv7": "arm32v7/ubuntu:bionic-20190424",
+        "i386": "i386/ubuntu:bionic-20190424"
     },
     "args": {}
 }
