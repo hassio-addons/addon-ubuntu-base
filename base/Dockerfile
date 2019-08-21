@@ -43,7 +43,7 @@ RUN \
     && mkdir -p /etc/services.d \
     \
     && curl -J -L -o /tmp/bashio.tar.gz \
-        "https://github.com/hassio-addons/bashio/archive/v0.3.2.tar.gz" \
+        "https://github.com/hassio-addons/bashio/archive/v0.4.1.tar.gz" \
     && mkdir /tmp/bashio \
     && tar zxvf \
         /tmp/bashio.tar.gz \
