@@ -69,6 +69,9 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="base" \
     io.hass.version=${BUILD_VERSION} \
+    io.hass.base.version=${BUILD_VERSION} \
+    io.hass.base.name="ubuntu" \
+    io.hass.base.image="hassioaddons/ubuntu-base" \
     maintainer="Franck Nijhof <frenck@addons.community>" \
     org.label-schema.description="Community Hass.io Add-ons: ${BUILD_ARCH} Ubuntu base image" \
     org.label-schema.build-date=${BUILD_DATE} \
