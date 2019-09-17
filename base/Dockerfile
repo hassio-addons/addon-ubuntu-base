@@ -15,14 +15,11 @@ ENV \
 # Copy root filesystem
 COPY rootfs /
 
-# Copy yq
-ARG BUILD_ARCH=amd64
-COPY bin/yq_${BUILD_ARCH} /usr/bin/yq
-
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Install base system
+ARG BUILD_ARCH=amd64
 RUN \
     apt-get update \
     \
