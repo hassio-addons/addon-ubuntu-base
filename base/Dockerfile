@@ -65,7 +65,7 @@ ARG BUILD_VERSION
 # Labels
 LABEL \
     io.hass.name="Addon Ubuntu base for ${BUILD_ARCH}" \
-    io.hass.description="Community Hass.io Add-ons: ${BUILD_ARCH} Ubuntu base image" \
+    io.hass.description="Community Home Assistant Add-on: ${BUILD_ARCH} Ubuntu base image" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="base" \
     io.hass.version=${BUILD_VERSION} \
@@ -73,7 +73,7 @@ LABEL \
     io.hass.base.name="ubuntu" \
     io.hass.base.image="hassioaddons/ubuntu-base" \
     maintainer="Franck Nijhof <frenck@addons.community>" \
-    org.label-schema.description="Community Hass.io Add-ons: ${BUILD_ARCH} Ubuntu base image" \
+    org.label-schema.description="Community Home Assistant Add-on: ${BUILD_ARCH} Ubuntu base image" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="Addon Ubuntu base for ${BUILD_ARCH}" \
     org.label-schema.schema-version="1.0" \
@@ -81,4 +81,4 @@ LABEL \
     org.label-schema.usage="https://github.com/hassio-addons/addon-ubuntu-base/blob/master/README.md" \
     org.label-schema.vcs-ref=${REF} \
     org.label-schema.vcs-url="https://github.com/hassio-addons/addon-ubuntu-base" \
-    org.label-schema.vendor="Franck Nijhof"
+    org.label-schema.vendor="Community Home Assistant Add-ons"
