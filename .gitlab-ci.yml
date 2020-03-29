@@ -6,7 +6,6 @@ variables:
   ADDON_SLUG: "ubuntu-base"
   ADDON_TARGET: "base"
 
-  ADDON_LEGACY_TAGS: "true"
   ADDON_PUBLISH: "false"
   ADDON_QEMU: "true"
   ADDON_ARMHF: "false"
