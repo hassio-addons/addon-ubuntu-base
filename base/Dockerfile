@@ -27,7 +27,7 @@ RUN \
         ca-certificates=20190110ubuntu1 \
         curl=7.68.0-1ubuntu2 \
         jq=1.6-1 \
-        tzdata=2019c-0ubuntu0.18.04 \
+        tzdata=2019c-3ubuntu1 \
     \
     && S6_ARCH="${BUILD_ARCH}" \
     && if [ "${BUILD_ARCH}" = "i386" ]; then S6_ARCH="x86"; fi \
