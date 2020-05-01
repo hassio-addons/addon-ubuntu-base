@@ -26,7 +26,7 @@ RUN \
     && apt-get install -y --no-install-recommends \
         ca-certificates=20190110ubuntu1 \
         curl=7.68.0-1ubuntu2 \
-        jq=1.5+dfsg-2 \
+        jq=1.6-1 \
         tzdata=2019c-0ubuntu0.18.04 \
     \
     && S6_ARCH="${BUILD_ARCH}" \
