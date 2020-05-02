@@ -133,7 +133,7 @@ SOFTWARE.
 [github-sponsors]: https://github.com/sponsors/frenck
 [gitlabci-shield]: https://gitlab.com/hassio-addons/addon-ubuntu-base/badges/master/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-ubuntu-base/pipelines
-[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [issue]: https://github.com/hassio-addons/addon-ubuntu-base/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [label-schema]: http://label-schema.org/

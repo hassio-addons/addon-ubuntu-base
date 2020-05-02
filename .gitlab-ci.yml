@@ -9,8 +9,8 @@ variables:
   ADDON_PUBLISH: "false"
   ADDON_QEMU: "true"
   ADDON_ARMHF: "false"
+  ADDON_I386: "false"
 
   ADDON_AARCH64_BASE: "arm64v8/ubuntu:focal-20200423"
   ADDON_AMD64_BASE: "amd64/ubuntu:focal-20200423"
   ADDON_ARMV7_BASE: "arm32v7/ubuntu:focal-20200115"
-  ADDON_I386_BASE: "i386/ubuntu:focal-20200423"
