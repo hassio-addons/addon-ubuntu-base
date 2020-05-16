@@ -25,7 +25,7 @@ RUN \
     \
     && apt-get install -y --no-install-recommends \
         ca-certificates=20190110ubuntu1 \
-        curl=7.68.0-1ubuntu2 \
+        curl=7.58.0-2ubuntu3.8 \
         jq=1.5+dfsg-2 \
         tzdata=2019c-0ubuntu0.18.04 \
     \
