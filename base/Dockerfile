@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ubuntu:bionic-20200403
+ARG BUILD_FROM=ubuntu:focal-20200423
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -24,10 +24,10 @@ RUN \
     apt-get update \
     \
     && apt-get install -y --no-install-recommends \
-        ca-certificates=20180409 \
-        curl=7.58.0-2ubuntu3.8 \
-        jq=1.5+dfsg-2 \
-        tzdata=2019c-0ubuntu0.18.04 \
+        ca-certificates=20190110ubuntu1 \
+        curl=7.68.0-1ubuntu2 \
+        jq=1.6-1 \
+        tzdata=2019c-3ubuntu1 \
     \
     && S6_ARCH="${BUILD_ARCH}" \
     && if [ "${BUILD_ARCH}" = "i386" ]; then S6_ARCH="x86"; fi \
