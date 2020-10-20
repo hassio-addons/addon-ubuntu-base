@@ -10,7 +10,7 @@ variables:
   ADDON_QEMU: "true"
   ADDON_ARMHF: "false"
 
-  ADDON_AARCH64_BASE: "arm64v8/ubuntu:bionic-20200403"
-  ADDON_AMD64_BASE: "amd64/ubuntu:bionic-20200403"
-  ADDON_ARMV7_BASE: "arm32v7/ubuntu:bionic-20200403"
-  ADDON_I386_BASE: "i386/ubuntu:bionic-20200403"
+  ADDON_AARCH64_BASE: "arm64v8/ubuntu:bionic-20200921"
+  ADDON_AMD64_BASE: "amd64/ubuntu:bionic-20200921"
+  ADDON_ARMV7_BASE: "arm32v7/ubuntu:bionic-20200921"
+  ADDON_I386_BASE: "i386/ubuntu:bionic-20200921"
