@@ -24,10 +24,10 @@ RUN \
     apt-get update \
     \
     && apt-get install -y --no-install-recommends \
-        ca-certificates=20180409 \
-        curl=7.58.0-2ubuntu3.10 \
+        ca-certificates=20201027ubuntu0.18.04.1 \
+        curl=7.58.0-2ubuntu3.12 \
         jq=1.5+dfsg-2 \
-        tzdata=2020a-0ubuntu0.18.04 \
+        tzdata=2020f-0ubuntu0.18.04 \
     \
     && S6_ARCH="${BUILD_ARCH}" \
     && if [ "${BUILD_ARCH}" = "i386" ]; then S6_ARCH="x86"; fi \
@@ -61,6 +61,7 @@ ENTRYPOINT [ "/init" ]
 ARG BUILD_DATE
 ARG BUILD_REF
 ARG BUILD_VERSION
+ARG BUILD_REPOSITORY
 
 # Labels
 LABEL \
@@ -79,8 +80,8 @@ LABEL \
     org.opencontainers.image.authors="Franck Nijhof <frenck@addons.community>" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.url="https://addons.community" \
-    org.opencontainers.image.source="https://github.com/hassio-addons/addon-ubuntu-base" \
-    org.opencontainers.image.documentation="https://github.com/hassio-addons/addon-ubuntu-base/blob/master/README.md" \
+    org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
+    org.opencontainers.image.documentation="https://github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
     org.opencontainers.image.revision=${BUILD_REF} \
     org.opencontainers.image.version=${BUILD_VERSION}
