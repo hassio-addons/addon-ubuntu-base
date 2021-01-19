@@ -10,7 +10,7 @@
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
 
-[![GitLab CI][gitlabci-shield]][gitlabci]
+[![GitHub Actions][github-actions-shield]][github-actions]
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
@@ -41,8 +41,8 @@ repository contain some extras:
 
 ## Changelog & Releases
 
-This repository keeps a [change log](CHANGELOG.md). The format of the log
-is based on [Keep a Changelog][keepchangelog].
+This repository keeps a change log using [GitHub's releases][releases]
+functionality.
 
 Releases are based on [Semantic Versioning][semver], and use the format
 of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
@@ -121,7 +121,7 @@ SOFTWARE.
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [bashio]: https://github.com/hassio-addons/bashio
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-ubuntu-base.svg
-[commits]: https://github.com/hassio-addons/addon-ubuntu-base/commits/master
+[commits]: https://github.com/hassio-addons/addon-ubuntu-base/commits/main
 [contributors]: https://github.com/hassio-addons/addon-ubuntu-base/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
@@ -129,13 +129,12 @@ SOFTWARE.
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/?u=frenck
 [frenck]: https://github.com/frenck
+[github-actions-shield]: https://github.com/hassio-addons/addon-base/workflows/CI/badge.svg
+[github-actions]: https://github.com/hassio-addons/addon-base/actions
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-ubuntu-base/badges/master/pipeline.svg
-[gitlabci]: https://gitlab.com/hassio-addons/addon-ubuntu-base/pipelines
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [issue]: https://github.com/hassio-addons/addon-ubuntu-base/issues
-[keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [label-schema]: http://label-schema.org/
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-ubuntu-base.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
