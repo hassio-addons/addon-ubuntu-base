@@ -24,7 +24,7 @@ RUN \
     apt-get update \
     \
     && apt-get install -y --no-install-recommends \
-        ca-certificates=20201027ubuntu0.18.04.1 \
+        ca-certificates=20210119~18.04.1 \
         curl=7.58.0-2ubuntu3.12 \
         jq=1.5+dfsg-2 \
         tzdata=2021a-0ubuntu0.18.04 \
