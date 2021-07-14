@@ -1,8 +1,8 @@
 {
   "build_from": {
-    "aarch64": "arm64v8/ubuntu:bionic-20210325",
-    "amd64": "amd64/ubuntu:bionic-20210325",
-    "armv7": "arm32v7/ubuntu:bionic-20210325",
-    "i386": "i386/ubuntu:bionic-20210325"
+    "aarch64": "arm64v8/ubuntu:bionic-20210702",
+    "amd64": "amd64/ubuntu:bionic-20210702",
+    "armv7": "arm32v7/ubuntu:bionic-20210702",
+    "i386": "i386/ubuntu:bionic-20210702"
   }
 }
