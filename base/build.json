@@ -2,7 +2,6 @@
   "build_from": {
     "aarch64": "arm64v8/ubuntu:focal-20210723",
     "amd64": "amd64/ubuntu:focal-20210723",
-    "armv7": "arm32v7/ubuntu:focal-20210723",
-    "i386": "i386/ubuntu:focal-20210723"
+    "armv7": "arm32v7/ubuntu:focal-20210723"
   }
 }
