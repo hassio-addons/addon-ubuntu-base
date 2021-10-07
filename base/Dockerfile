@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ubuntu:focal-20210723
+ARG BUILD_FROM=ubuntu:focal-20210921
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -24,10 +24,10 @@ RUN \
     apt-get update \
     \
     && apt-get install -y --no-install-recommends \
-        ca-certificates=20210119~20.04.1 \
-        curl=7.68.0-1ubuntu2.6 \
+        ca-certificates=20210119~20.04.2 \
+        curl=7.68.0-1ubuntu2.7 \
         jq=1.6-1ubuntu0.20.04.1 \
-        tzdata=2021a-0ubuntu0.20.04 \
+        tzdata=2021a-2ubuntu0.20.04 \
     \
     && S6_ARCH="${BUILD_ARCH}" \
     && if [ "${BUILD_ARCH}" = "i386" ]; then S6_ARCH="x86"; fi \
