@@ -38,7 +38,7 @@ RUN \
     \
     && tar zxvfh \
         /tmp/s6-overlay.tar.gz \
-        -C /usr \
+        -C / \
     \
     && tar zxvfh \
         /tmp/s6-overlay.tar.gz \
