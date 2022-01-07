@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ubuntu:focal-20211006
+ARG BUILD_FROM=ubuntu:focal-20220105
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
