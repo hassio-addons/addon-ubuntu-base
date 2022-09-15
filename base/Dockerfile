@@ -35,7 +35,7 @@ RUN \
         ca-certificates=20211016~20.04.1 \
         curl=7.68.0-1ubuntu2.12 \
         jq=1.6-1ubuntu0.20.04.1 \
-        tzdata=2022a-0ubuntu0.20.04 \
+        tzdata=2022c-0ubuntu0.20.04.0 \
         xz-utils=5.2.4-1 \
     \
     && S6_VERSION="3.1.1.2" \
