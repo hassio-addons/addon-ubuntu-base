@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ubuntu:focal-20220826
+ARG BUILD_FROM=ubuntu:focal-20221019
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -33,10 +33,10 @@ RUN \
     \
     && apt-get install -y --no-install-recommends \
         ca-certificates=20211016~20.04.1 \
-        curl=7.68.0-1ubuntu2.13 \
+        curl=7.68.0-1ubuntu2.14 \
         jq=1.6-1ubuntu0.20.04.1 \
-        tzdata=2022c-0ubuntu0.20.04.0 \
-        xz-utils=5.2.4-1 \
+        tzdata=2022f-0ubuntu0.20.04.0 \
+        xz-utils=5.2.4-1ubuntu1.1 \
     \
     && S6_VERSION="3.1.2.1" \
     && S6_ARCH="${BUILD_ARCH}" \
