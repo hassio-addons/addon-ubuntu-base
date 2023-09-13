@@ -1,7 +1,7 @@
 ---
 build_from:
-  aarch64: arm64v8/ubuntu:focal-20221130
-  amd64: amd64/ubuntu:focal-20221130
-  armv7: arm32v7/ubuntu:focal-20221130
+  aarch64: arm64v8/ubuntu:22.04
+  amd64: amd64/ubuntu:22.04
+  armv7: arm32v7/ubuntu:22.04
 codenotary:
   signer: codenotary@frenck.dev
