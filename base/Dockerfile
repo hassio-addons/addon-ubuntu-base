@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ubuntu:22.04
+ARG BUILD_FROM=ubuntu:jammy
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
