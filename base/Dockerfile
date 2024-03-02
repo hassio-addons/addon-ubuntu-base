@@ -35,7 +35,7 @@ RUN \
         ca-certificates=20230311ubuntu0.22.04.1 \
         curl=7.81.0-1ubuntu1.15 \
         jq=1.6-2.1ubuntu3 \
-        tzdata=2023d-0ubuntu0.22.04 \
+        tzdata=2024a-0ubuntu0.22.04 \
         xz-utils=5.2.5-2ubuntu1 \
     \
     && S6_ARCH="${BUILD_ARCH}" \
