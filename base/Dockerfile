@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ubuntu:jammy
+ARG BUILD_FROM=ubuntu:noble
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -32,11 +32,11 @@ RUN \
     apt-get update \
     \
     && apt-get install -y --no-install-recommends \
-        ca-certificates=20230311ubuntu0.22.04.1 \
-        curl=7.81.0-1ubuntu1.16 \
-        jq=1.6-2.1ubuntu3 \
-        tzdata=2024a-0ubuntu0.22.04 \
-        xz-utils=5.2.5-2ubuntu1 \
+        ca-certificates=20240203 \
+        curl=8.5.0-2ubuntu10.1 \
+        jq=1.7.1-3build1 \
+        tzdata=2024a-2ubuntu1 \
+        xz-utils=5.6.1+really5.4.5-1 \
     \
     && S6_ARCH="${BUILD_ARCH}" \
     && if [ "${BUILD_ARCH}" = "i386" ]; then S6_ARCH="i686"; \
