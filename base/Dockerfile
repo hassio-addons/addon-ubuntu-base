@@ -33,7 +33,7 @@ RUN \
     \
     && apt-get install -y --no-install-recommends \
         ca-certificates=20240203 \
-        curl=8.5.0-2ubuntu10.5 \
+        curl=8.5.0-2ubuntu10.6 \
         jq=1.7.1-3build1 \
         tzdata=2024a-2ubuntu1 \
         xz-utils=5.6.1+really5.4.5-1 \
