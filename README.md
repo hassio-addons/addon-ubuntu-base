@@ -31,7 +31,7 @@ Home Assistant Community Add-ons.
 While Home Assistant provides base images, the images provided by this
 repository contain some extras:
 
-- Based on Ubuntu Bionic (slim)
+- Based on the latest Ubuntu LTS
 - Adds [s6] as a process supervisor.
 - Adds `jq` & `curl`, since every add-on uses them.
 - Adds Docker [Label Schema][label-schema] support.
