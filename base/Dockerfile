@@ -34,7 +34,7 @@ RUN \
     && apt-get install -y --no-install-recommends \
         ca-certificates=20240203 \
         curl=8.5.0-2ubuntu10.6 \
-        jq=1.7.1-3build1 \
+        jq=1.7.1-3ubuntu0.24.04.1 \
         tzdata=2025b-0ubuntu0.24.04 \
         xz-utils=5.6.1+really5.4.5-1 \
     \
@@ -89,7 +89,7 @@ COPY s6-overlay /package/admin/s6-overlay-${S6_OVERLAY_VERSION}/
 # Entrypoint & CMD
 ENTRYPOINT [ "/init" ]
 
-# Build arugments
+# Build arguments
 ARG BUILD_DATE
 ARG BUILD_REF
 ARG BUILD_VERSION
