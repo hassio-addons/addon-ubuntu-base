@@ -39,9 +39,7 @@ RUN \
         xz-utils=5.6.1+really5.4.5-1 \
     \
     && S6_ARCH="${BUILD_ARCH}" \
-    && if [ "${BUILD_ARCH}" = "i386" ]; then S6_ARCH="i686"; \
-    elif [ "${BUILD_ARCH}" = "amd64" ]; then S6_ARCH="x86_64"; \
-    elif [ "${BUILD_ARCH}" = "armv7" ]; then S6_ARCH="arm"; fi \
+    && if [ "${BUILD_ARCH}" = "amd64" ]; then S6_ARCH="x86_64"; fi \
     \
     && curl -L -s "https://github.com/just-containers/s6-overlay/releases/download/v${S6_OVERLAY_VERSION}/s6-overlay-noarch.tar.xz" \
         | tar -C / -Jxpf - \
