@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ubuntu:noble
+ARG BUILD_FROM=ubuntu:resolute
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
