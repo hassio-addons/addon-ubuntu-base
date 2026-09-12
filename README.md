@@ -93,7 +93,7 @@ our [GitHub Repository][repository].
 
 MIT License
 
-Copyright (c) 2018-2025 Franck Nijhof
+Copyright (c) 2018-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -132,7 +132,7 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/app-ubuntu-base/issues
 [label-schema]: http://label-schema.org/
 [license-shield]: https://img.shields.io/github/license/hassio-addons/app-ubuntu-base.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg

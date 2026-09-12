@@ -103,11 +103,11 @@ LABEL \
     io.hass.base.version=${BUILD_VERSION} \
     io.hass.base.name="ubuntu" \
     io.hass.base.image="hassioaddons/ubuntu-base" \
-    maintainer="Franck Nijhof <frenck@addons.community>" \
+    maintainer="Franck Nijhof <opensource@frenck.dev>" \
     org.opencontainers.image.title="App Ubuntu base for ${BUILD_ARCH}" \
     org.opencontainers.image.description="Home Assistant Community App: ${BUILD_ARCH} Ubuntu base image" \
     org.opencontainers.image.vendor="Home Assistant Community Apps" \
-    org.opencontainers.image.authors="Franck Nijhof <frenck@addons.community>" \
+    org.opencontainers.image.authors="Franck Nijhof <opensource@frenck.dev>" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.url="https://frenck.dev/home-assistant-apps" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
