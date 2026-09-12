@@ -57,7 +57,7 @@
       ],
       "versioningTemplate": "deb",
       "datasourceTemplate": "repology",
-      "depNameTemplate": "ubuntu_22_04/{{package}}"
+      "depNameTemplate": "ubuntu_24_04/{{package}}"
     }
   ],
   "packageRules": [
