@@ -57,8 +57,8 @@
         "\\s\\s(?<package>[a-z0-9][a-z0-9-]+)=(?<currentValue>[a-z0-9-:_+~.]+)\\s+"
       ],
       "versioningTemplate": "deb",
-      "datasourceTemplate": "repology",
-      "depNameTemplate": "ubuntu_26_04/{{package}}"
+      "datasourceTemplate": "deb",
+      "depNameTemplate": "{{{package}}}"
     }
   ],
   "packageRules": [
@@ -69,7 +69,12 @@
       "automerge": true
     },
     {
-      "matchDatasources": ["repology"],
+      "matchDatasources": ["deb"],
+      "registryUrls": [
+        "https://archive.ubuntu.com/ubuntu?suite=resolute&components=main&binaryArch=amd64",
+        "https://archive.ubuntu.com/ubuntu?suite=resolute-updates&components=main&binaryArch=amd64",
+        "https://security.ubuntu.com/ubuntu?suite=resolute-security&components=main&binaryArch=amd64"
+      ],
       "automerge": true
     },
     {
