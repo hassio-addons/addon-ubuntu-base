@@ -1,40 +1,34 @@
-# Home Assistant Community Add-on: Ubuntu Base Images
+# Home Assistant Community App: Ubuntu Base Images
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
 [![License][license-shield]](LICENSE.md)
 
-![Supports aarch64 Architecture][aarch64-shield]
-![Supports amd64 Architecture][amd64-shield]
-
 [![GitHub Actions][github-actions-shield]][github-actions]
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
-
-[![Discord][discord-shield]][discord]
-[![Community Forum][forum-shield]][forum]
 
 [![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
 
 [![Support Frenck on Patreon][patreon-shield]][patreon]
 
-Docker Ubuntu base images used by Home Assistant Community Add-ons.
+Docker Ubuntu base images used by Home Assistant Community Apps.
 
 ## About
 
-These are the base images used by add-ons created by the
-Home Assistant Community Add-ons.
+These are the base images used by apps created by the
+Home Assistant Community Apps.
 
 While Home Assistant provides base images, the images provided by this
 repository contain some extras:
 
 - Based on the latest Ubuntu LTS
 - Adds [s6] as a process supervisor.
-- Adds `jq` & `curl`, since every add-on uses them.
+- Adds `jq` & `curl`, since every app uses them.
 - Adds Docker [Label Schema][label-schema] support.
 - Includes a helper library: [Bashio][bashio]
 - Includes template helper: [tempio][tempio]
-- Handles logs, add-on startup banners and update notifications.
+- Handles logs, app startup banners and update notifications.
 - Several small adjustments and improvements.
 
 ## Changelog & Releases
@@ -56,7 +50,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord Chat Server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -82,18 +76,18 @@ The original setup of this repository is by [Franck Nijhof][frenck].
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
 
-## We have got some Home Assistant add-ons for you
+## We have got some Home Assistant apps for you
 
 Want some more functionality to your Home Assistant instance?
 
-We have created multiple add-ons for Home Assistant. For a full list, check out
+We have created multiple apps for Home Assistant. For a full list, check out
 our [GitHub Repository][repository].
 
 ## License
 
 MIT License
 
-Copyright (c) 2018-2025 Franck Nijhof
+Copyright (c) 2018-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -113,32 +107,28 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [bashio]: https://github.com/hassio-addons/bashio
-[commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-ubuntu-base.svg
-[commits]: https://github.com/hassio-addons/addon-ubuntu-base/commits/main
-[contributors]: https://github.com/hassio-addons/addon-ubuntu-base/graphs/contributors
+[commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/app-ubuntu-base.svg
+[commits]: https://github.com/hassio-addons/app-ubuntu-base/commits/main
+[contributors]: https://github.com/hassio-addons/app-ubuntu-base/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
-[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/?u=frenck
 [frenck]: https://github.com/frenck
-[github-actions-shield]: https://github.com/hassio-addons/addon-base/workflows/CI/badge.svg
-[github-actions]: https://github.com/hassio-addons/addon-base/actions
+[github-actions-shield]: https://github.com/hassio-addons/app-ubuntu-base/workflows/CI/badge.svg
+[github-actions]: https://github.com/hassio-addons/app-ubuntu-base/actions
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[issue]: https://github.com/hassio-addons/addon-ubuntu-base/issues
+[issue]: https://github.com/hassio-addons/app-ubuntu-base/issues
 [label-schema]: http://label-schema.org/
-[license-shield]: https://img.shields.io/github/license/hassio-addons/addon-ubuntu-base.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[license-shield]: https://img.shields.io/github/license/hassio-addons/app-ubuntu-base.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
-[releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-ubuntu-base.svg
-[releases]: https://github.com/hassio-addons/addon-ubuntu-base/releases
+[releases-shield]: https://img.shields.io/github/release/hassio-addons/app-ubuntu-base.svg
+[releases]: https://github.com/hassio-addons/app-ubuntu-base/releases
 [repository]: https://github.com/hassio-addons/repository
 [s6]: http://skarnet.org/software/s6/overview.html
 [semver]: http://semver.org/spec/v2.0.0.html

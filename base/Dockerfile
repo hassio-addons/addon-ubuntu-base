@@ -95,21 +95,21 @@ ARG BUILD_REPOSITORY
 
 # Labels
 LABEL \
-    io.hass.name="Addon Ubuntu base for ${BUILD_ARCH}" \
-    io.hass.description="Home Assistant Community Add-on: ${BUILD_ARCH} Ubuntu base image" \
+    io.hass.name="App Ubuntu base for ${BUILD_ARCH}" \
+    io.hass.description="Home Assistant Community App: ${BUILD_ARCH} Ubuntu base image" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="base" \
     io.hass.version=${BUILD_VERSION} \
     io.hass.base.version=${BUILD_VERSION} \
     io.hass.base.name="ubuntu" \
     io.hass.base.image="hassioaddons/ubuntu-base" \
-    maintainer="Franck Nijhof <frenck@addons.community>" \
-    org.opencontainers.image.title="Addon Ubuntu base for ${BUILD_ARCH}" \
-    org.opencontainers.image.description="Home Assistant Community Add-on: ${BUILD_ARCH} Ubuntu base image" \
-    org.opencontainers.image.vendor="Home Assistant Community Add-ons" \
-    org.opencontainers.image.authors="Franck Nijhof <frenck@addons.community>" \
+    maintainer="Franck Nijhof <opensource@frenck.dev>" \
+    org.opencontainers.image.title="App Ubuntu base for ${BUILD_ARCH}" \
+    org.opencontainers.image.description="Home Assistant Community App: ${BUILD_ARCH} Ubuntu base image" \
+    org.opencontainers.image.vendor="Home Assistant Community Apps" \
+    org.opencontainers.image.authors="Franck Nijhof <opensource@frenck.dev>" \
     org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.url="https://addons.community" \
+    org.opencontainers.image.url="https://frenck.dev/home-assistant-apps" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
     org.opencontainers.image.documentation="https://github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
