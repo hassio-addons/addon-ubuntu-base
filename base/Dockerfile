@@ -32,11 +32,11 @@ RUN \
     apt-get update \
     \
     && apt-get install -y --no-install-recommends \
-        ca-certificates=20240203 \
-        curl=8.5.0-2ubuntu10.6 \
-        jq=1.7.1-3ubuntu0.24.04.1 \
-        tzdata=2025b-0ubuntu0.24.04.1 \
-        xz-utils=5.6.1+really5.4.5-1 \
+        ca-certificates=20260601~26.04.1 \
+        curl=8.18.0-1ubuntu2.5 \
+        jq=1.8.1-4ubuntu2 \
+        tzdata=2026c-0ubuntu0.26.04.1 \
+        xz-utils=5.8.3-1 \
     \
     && S6_ARCH="${BUILD_ARCH}" \
     && if [ "${BUILD_ARCH}" = "amd64" ]; then S6_ARCH="x86_64"; fi \
